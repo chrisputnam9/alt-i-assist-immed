@@ -57,9 +57,11 @@ The project is configured with GitHub Actions for:
 ## Contribution Workflow
 
 1.  Check the `development/plan/` directory to see what's being worked on.
-2.  Use atomic commits.
-3. Ensure you update `README.md`, `DEVELOPMENT.md`, `AGENTS.md`, and relevant `development/plan/` checklists for any changes you make (ideally in the same commit).
-4.  Push directly to `master` during the early stages of development (this policy will be updated later).
+2.  **Use Atomic Commits:** Each logical change should be a separate commit.
+3.  **Build Before Committing:** ALWAYS run `npm run build` after making changes. The `dist/` directory is tracked and must be updated and committed along with your source changes.
+4.  **Keep Documentation Current:** Update `README.md`, `DEVELOPMENT.md`, `AGENTS.md`, and relevant `development/plan/` checklists for any changes you make (ideally in the same commit).
+5.  Push directly to `master` during the early stages of development.
+6.  **Verify Status:** Run `git status` to ensure all changes and the updated `dist/` are committed.
 
 ---
 *Note: This document is for human developers. Keep it updated with the latest tools, workflows, and standards.*
