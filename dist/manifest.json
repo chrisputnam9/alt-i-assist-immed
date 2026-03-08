@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "Alt-I Assist",
+  "version": "0.0.1",
+  "description": "Push-to-Talk with Gemini Multimodal Live.",
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "sidePanel",
+    "offscreen",
+    "desktopCapture",
+    "notifications",
+    "webNavigation",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": "src/assets/icon.png"
+  },
+  "options_page": "src/options/index.html",
+  "commands": {
+    "activate_extension": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "linux": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S",
+        "windows": "Ctrl+Shift+S"
+      },
+      "description": "Activate the extension",
+      "global": true
+    },
+    "toggle_assistant": {
+      "suggested_key": {
+        "default": "Alt+I",
+        "linux": "Alt+I",
+        "mac": "Command+I",
+        "windows": "Alt+I"
+      },
+      "description": "Activate/Deactivate Voice Assistant",
+      "global": true
+    }
+  },
+  "icons": {
+    "128": "src/assets/icon.png"
+  }
+}

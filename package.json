@@ -1,0 +1,37 @@
+{
+  "name": "alt-i-assist-immed",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "**AI Everywhere.** Push-to-Talk with your Live Assistant.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisputnam9/alt-i-assist-immed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisputnam9/alt-i-assist-immed/issues"
+  },
+  "homepage": "https://github.com/chrisputnam9/alt-i-assist-immed#readme",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.3.0",
+    "@eslint/js": "^10.0.1",
+    "@types/chrome": "^0.1.37",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^7.3.1"
+  }
+}

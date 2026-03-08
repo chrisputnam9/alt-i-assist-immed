@@ -58,7 +58,7 @@ The project is configured with GitHub Actions for:
 
 1.  Check the `development/plan/` directory to see what's being worked on.
 2.  Use atomic commits.
-3.  Ensure you update `README.md`, `DEVELOPMENT.md`, and `AGENTS.md` for any changes you make.
+3. Ensure you update `README.md`, `DEVELOPMENT.md`, `AGENTS.md`, and relevant `development/plan/` checklists for any changes you make (ideally in the same commit).
 4.  Push directly to `master` during the early stages of development (this policy will be updated later).
 
 ---

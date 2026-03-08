@@ -24,7 +24,7 @@ When performing tasks in this repository, adhere to the following:
 1.  **Context First:** Always refer to the `development/plan/` directory for the current roadmap and architectural decisions.
 2.  **Surgical Edits:** Make precise changes. Avoid broad refactors unless explicitly requested.
 3.  **Atomic Commits:** Each logical change should be a separate commit.
-4.  **Keep Documentation Current:** Update `README.md`, `DEVELOPMENT.md`, and this `AGENTS.md` file whenever a change impacts their respective audiences.
+4.  **Keep Documentation & Plans Current:** Update `README.md`, `DEVELOPMENT.md`, this `AGENTS.md` file, and relevant `development/plan/` checklists whenever a change impacts them (include these updates in the same commit).
 5.  **Testing:** Ensure changes are verified. Since this is a Chrome Extension, emphasize manual verification steps in the browser if automated tests are not yet available.
 
 ## Coding Standards

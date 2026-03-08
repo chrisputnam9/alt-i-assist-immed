@@ -28,4 +28,5 @@ https://geminiliveagentchallenge.devpost.com/
  - Maintain README.md while working - user facing
  - Maintain DEVELOPMENT.md while working - developer facing
  - Maintain AGENTS.md while working - AI facing
+ - Maintain relevant development/plan/ checklists as part of each change (ideally in the same commit)
  - Include links to DEVELOPMENT.md, AGENTS.md, and any other relevant info in the README.md for easy access
